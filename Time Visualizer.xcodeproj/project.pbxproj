@@ -9,23 +9,41 @@
 /* Begin PBXBuildFile section */
 		8556C469276E19AA00DAF611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556C468276E19AA00DAF611 /* AppDelegate.swift */; };
 		8556C46B276E19AA00DAF611 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556C46A276E19AA00DAF611 /* SceneDelegate.swift */; };
-		8556C46D276E19AA00DAF611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556C46C276E19AA00DAF611 /* ViewController.swift */; };
+		8556C46D276E19AA00DAF611 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556C46C276E19AA00DAF611 /* DayViewController.swift */; };
 		8556C470276E19AA00DAF611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8556C46E276E19AA00DAF611 /* Main.storyboard */; };
-		8556C473276E19AA00DAF611 /* Time_Visualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8556C471276E19AA00DAF611 /* Time_Visualizer.xcdatamodeld */; };
 		8556C475276E19AF00DAF611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8556C474276E19AF00DAF611 /* Assets.xcassets */; };
 		8556C478276E19AF00DAF611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8556C476276E19AF00DAF611 /* LaunchScreen.storyboard */; };
+		8556C480276E363200DAF611 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556C47F276E363200DAF611 /* Week.swift */; };
+		8566CFA1276F5FE4008BD78B /* KeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566CFA0276F5FE4008BD78B /* KeywordViewController.swift */; };
+		8566CFA3276F6002008BD78B /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566CFA2276F6002008BD78B /* WeekViewController.swift */; };
+		85C39A71276F76BB008FC2E5 /* DaysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A70276F76BB008FC2E5 /* DaysTableViewCell.swift */; };
+		85C39A75276F9911008FC2E5 /* Time_Visualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A73276F9911008FC2E5 /* Time_Visualizer.xcdatamodeld */; };
+		85C39A77276F9B40008FC2E5 /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A76276F9B40008FC2E5 /* WeekTableViewCell.swift */; };
+		85C39A79276FBCA0008FC2E5 /* KeywordViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A78276FBCA0008FC2E5 /* KeywordViewControllerDelegate.swift */; };
+		85C39A7B276FEE5A008FC2E5 /* TextChangeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A7A276FEE5A008FC2E5 /* TextChangeDelegate.swift */; };
+		8FD8BF139FB7F9CC1E0526D8 /* Pods_Time_Visualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A014D1A8DDFE6F30AB9A55C /* Pods_Time_Visualizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5949F0A1C27558D9AF374EA2 /* Pods-Time Visualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer.release.xcconfig"; path = "Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer.release.xcconfig"; sourceTree = "<group>"; };
+		5A014D1A8DDFE6F30AB9A55C /* Pods_Time_Visualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Visualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5C016FB238701F2CB6B2BE /* Pods-Time Visualizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer.debug.xcconfig"; path = "Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer.debug.xcconfig"; sourceTree = "<group>"; };
 		8556C465276E19AA00DAF611 /* Time Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556C468276E19AA00DAF611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8556C46A276E19AA00DAF611 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8556C46C276E19AA00DAF611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8556C46C276E19AA00DAF611 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 		8556C46F276E19AA00DAF611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8556C472276E19AA00DAF611 /* Time_Visualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Time_Visualizer.xcdatamodel; sourceTree = "<group>"; };
 		8556C474276E19AF00DAF611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8556C477276E19AF00DAF611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8556C479276E19AF00DAF611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8556C47F276E363200DAF611 /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		8566CFA0276F5FE4008BD78B /* KeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordViewController.swift; sourceTree = "<group>"; };
+		8566CFA2276F6002008BD78B /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		85C39A70276F76BB008FC2E5 /* DaysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysTableViewCell.swift; sourceTree = "<group>"; };
+		85C39A74276F9911008FC2E5 /* Time_Visualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Time_Visualizer.xcdatamodel; sourceTree = "<group>"; };
+		85C39A76276F9B40008FC2E5 /* WeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
+		85C39A78276FBCA0008FC2E5 /* KeywordViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordViewControllerDelegate.swift; sourceTree = "<group>"; };
+		85C39A7A276FEE5A008FC2E5 /* TextChangeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChangeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD8BF139FB7F9CC1E0526D8 /* Pods_Time_Visualizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AFE507B7C5F4CD6CC9E6CB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A014D1A8DDFE6F30AB9A55C /* Pods_Time_Visualizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8556C45C276E19AA00DAF611 = {
 			isa = PBXGroup;
 			children = (
 				8556C467276E19AA00DAF611 /* Time Visualizer */,
 				8556C466276E19AA00DAF611 /* Products */,
+				D0EA5850B9431F74D7872C4C /* Pods */,
+				1AFE507B7C5F4CD6CC9E6CB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +89,30 @@
 			children = (
 				8556C468276E19AA00DAF611 /* AppDelegate.swift */,
 				8556C46A276E19AA00DAF611 /* SceneDelegate.swift */,
-				8556C46C276E19AA00DAF611 /* ViewController.swift */,
+				8556C46C276E19AA00DAF611 /* DayViewController.swift */,
 				8556C46E276E19AA00DAF611 /* Main.storyboard */,
 				8556C474276E19AF00DAF611 /* Assets.xcassets */,
 				8556C476276E19AF00DAF611 /* LaunchScreen.storyboard */,
 				8556C479276E19AF00DAF611 /* Info.plist */,
-				8556C471276E19AA00DAF611 /* Time_Visualizer.xcdatamodeld */,
+				8556C47F276E363200DAF611 /* Week.swift */,
+				8566CFA0276F5FE4008BD78B /* KeywordViewController.swift */,
+				8566CFA2276F6002008BD78B /* WeekViewController.swift */,
+				85C39A70276F76BB008FC2E5 /* DaysTableViewCell.swift */,
+				85C39A73276F9911008FC2E5 /* Time_Visualizer.xcdatamodeld */,
+				85C39A76276F9B40008FC2E5 /* WeekTableViewCell.swift */,
+				85C39A78276FBCA0008FC2E5 /* KeywordViewControllerDelegate.swift */,
+				85C39A7A276FEE5A008FC2E5 /* TextChangeDelegate.swift */,
 			);
 			path = "Time Visualizer";
+			sourceTree = "<group>";
+		};
+		D0EA5850B9431F74D7872C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F5C016FB238701F2CB6B2BE /* Pods-Time Visualizer.debug.xcconfig */,
+				5949F0A1C27558D9AF374EA2 /* Pods-Time Visualizer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8556C47C276E19AF00DAF611 /* Build configuration list for PBXNativeTarget "Time Visualizer" */;
 			buildPhases = (
+				11C902A49E9215F100424640 /* [CP] Check Pods Manifest.lock */,
 				8556C461276E19AA00DAF611 /* Sources */,
 				8556C462276E19AA00DAF611 /* Frameworks */,
 				8556C463276E19AA00DAF611 /* Resources */,
+				A32F03D5BA5E3D9B9B7C75E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +183,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11C902A49E9215F100424640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Visualizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32F03D5BA5E3D9B9B7C75E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8556C461276E19AA00DAF611 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8556C473276E19AA00DAF611 /* Time_Visualizer.xcdatamodeld in Sources */,
-				8556C46D276E19AA00DAF611 /* ViewController.swift in Sources */,
+				85C39A75276F9911008FC2E5 /* Time_Visualizer.xcdatamodeld in Sources */,
+				8566CFA3276F6002008BD78B /* WeekViewController.swift in Sources */,
+				8566CFA1276F5FE4008BD78B /* KeywordViewController.swift in Sources */,
+				8556C46D276E19AA00DAF611 /* DayViewController.swift in Sources */,
+				85C39A77276F9B40008FC2E5 /* WeekTableViewCell.swift in Sources */,
+				8556C480276E363200DAF611 /* Week.swift in Sources */,
+				85C39A71276F76BB008FC2E5 /* DaysTableViewCell.swift in Sources */,
+				85C39A7B276FEE5A008FC2E5 /* TextChangeDelegate.swift in Sources */,
 				8556C469276E19AA00DAF611 /* AppDelegate.swift in Sources */,
+				85C39A79276FBCA0008FC2E5 /* KeywordViewControllerDelegate.swift in Sources */,
 				8556C46B276E19AA00DAF611 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +384,7 @@
 		};
 		8556C47D276E19AF00DAF611 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5C016FB238701F2CB6B2BE /* Pods-Time Visualizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +413,7 @@
 		};
 		8556C47E276E19AF00DAF611 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5949F0A1C27558D9AF374EA2 /* Pods-Time Visualizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,12 +464,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8556C471276E19AA00DAF611 /* Time_Visualizer.xcdatamodeld */ = {
+		85C39A73276F9911008FC2E5 /* Time_Visualizer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8556C472276E19AA00DAF611 /* Time_Visualizer.xcdatamodel */,
+				85C39A74276F9911008FC2E5 /* Time_Visualizer.xcdatamodel */,
 			);
-			currentVersion = 8556C472276E19AA00DAF611 /* Time_Visualizer.xcdatamodel */;
+			currentVersion = 85C39A74276F9911008FC2E5 /* Time_Visualizer.xcdatamodel */;
 			path = Time_Visualizer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
